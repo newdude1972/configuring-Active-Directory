@@ -51,7 +51,7 @@ Create the Domain Controller VM (Windows Server 2022). Set Domain Controller’s
 </p>
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Ensure Connectivity between the client and Domain Controller. Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping). Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall. Check back at Client-1 to see the ping succeed.
 </p>
 <br />
 
