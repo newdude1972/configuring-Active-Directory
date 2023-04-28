@@ -129,6 +129,18 @@ Create an Admin and Normal User Account in Active Directory. In Active Directory
 
   
 <p>
-Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”.Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”.
+Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”
 </p>
 <br />
+
+
+<p>
+<img src="https://i.imgur.com/QsWYCsD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/o2LjAjm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pOCdrlP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/k3wYCro.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8aceW2W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+
