@@ -51,14 +51,25 @@ Create the Domain Controller VM (Windows Server 2022). Set Domain Controller’s
 </p>
 
 <p>
-Ensure Connectivity between the client and Domain Controller. Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping). Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall. Check back at Client-1 to see the ping succeed.
+Ensure Connectivity between the client and Domain Controller. Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping). Notice the connection failure.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/w2IXlBk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/I14ujmQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XtLlvuy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4SJLvpN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  
+  
+<p>
+Login to DC-1 and install Active Directory Domain Services. Enable ICMPv4 on the local windows Firewall. Promote DC-1 as a Domain Controler: Setup a new forest as mydomain.com (can be anything, just remember what it is)
+Check back at Client-1 to see the ping succeed.
 </p>
 <br />
