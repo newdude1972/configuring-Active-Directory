@@ -170,3 +170,41 @@ Join Client-1 to your domain (mydomain.com). From the Azure Portal, set Client-1
 <img src="https://i.imgur.com/DQ08I69.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
+  
+<p>
+Setup Remote Desktop for non-administrative users on Client-1. Log into Client-1 as mydomain.com\jane_admin and open system properties. Click “Remote Desktop”. Allow “domain users” access to remote desktop. You can now log into Client-1 as a normal, non-administrative user now.
+</p>
+
+<p>
+<img src="https://i.imgur.com/Ok3Uu1J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/01Fh7OW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QYjj4Nn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DqPupD1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QWnUNC9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5UfsbNb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4ZzurGq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lJQH275.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+<p>
+Create a number of additional users using a PowerShell script and attempt to log into client-1 with one of the users. Login to DC-1 as jane_admin. Open PowerShell_ise as an administrator. Create a new File and paste the contents of the script into it. Run the script and observe the accounts being created. When finished, open Active Directory Users and Computers and observe the accounts in the appropriate Organizational Unit. Attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+</p>
+<br />
+
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
