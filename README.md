@@ -189,22 +189,19 @@ Setup Remote Desktop for non-administrative users on Client-1. Log into Client-1
 <p>
 
 <p>
-Create a number of additional users using a PowerShell script and attempt to log into client-1 with one of the users. Login to DC-1 as jane_admin. Open PowerShell_ise as an administrator. Create a new File and paste the contents of the script into it. Run the script and observe the accounts being created. When finished, open Active Directory Users and Computers and observe the accounts in the appropriate Organizational Unit. Attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+Create a number of additional users using a PowerShell script and attempt to log into client-1 with one of the users. Login to DC-1 as jane_admin. Open PowerShell_ise as an administrator. Create a new File and paste the contents of the script into it. https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1. Run the script and observe the accounts being created. When finished, open Active Directory Users and Computers and observe the accounts in the appropriate Organizational Unit. Attempt to log into Client-1 with one of the accounts (take note of the password in the script)
 </p>
 <br />
 
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vTjXDfa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WLCaxh8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dDQavjO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sJJN7JL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/od5IvBw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kKvbEda.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uhUVGqI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pZSwZIQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
